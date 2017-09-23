@@ -1,0 +1,88 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BrainGameTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorBrainPrimary</item>
+        <item name="colorPrimaryDark">@color/colorBrainPrimaryDark</item>
+        <item name="colorAccent">@color/colorBrainAccent</item>
+    </style>
+
+    <style name="AppWeatherTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorWeatherPrimary</item>
+        <item name="colorPrimaryDark">@color/colorWeatherPrimaryDark</item>
+        <item name="colorAccent">@color/colorWeatherAccent</item>
+    </style>
+
+    <style name="TicTacToeTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorTicPrimary</item>
+        <item name="colorPrimaryDark">@color/colorTicPrimaryDark</item>
+        <item name="colorAccent">@color/colorTicAccent</item>
+    </style>
+
+    <style name="DiceTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorDicePrimary</item>
+        <item name="colorPrimaryDark">@color/colorDicePrimaryDark</item>
+        <item name="colorAccent">@color/colorDiceAccent</item>
+    </style>
+
+    <style name="AppSoundTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorSoundPrimary</item>
+        <item name="colorPrimaryDark">@color/colorSoundPrimaryDark</item>
+        <item name="colorAccent">@color/colorSoundAccent</item>
+    </style>
+
+    <style name="AppCurrencyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorCurPrimary</item>
+        <item name="colorPrimaryDark">@color/colorCurPrimaryDark</item>
+        <item name="colorAccent">@color/colorCurAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+
+
+    <style name="HomeButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/button_shape</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:onClick">selectNav</item>
+    </style>
+
+    <style name="HomeTextStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="weatherRowStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

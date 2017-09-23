@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="johnny.nguyen.myportfolio.MainActivity">
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/picture_margin"
+        android:text="Johnny Nguyen's Portfolio!"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center_horizontal"/>
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+
+        <GridLayout
+            android:id="@+id/mainMenuGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/layout_border"
+            android:columnCount="2"
+            android:rowCount="7">
+
+            <Button
+                android:id="@+id/btnBio"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="0"
+                android:tag="bio"
+                android:text="@string/bioBtn" />
+
+            <TextView
+                android:id="@+id/txtBio"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="0"
+                android:text="@string/bioBtnTxt" />
+
+            <Button
+                android:id="@+id/btnWeather"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="1"
+                android:tag="weather"
+                android:text="@string/weatherBtn" />
+
+            <TextView
+                android:id="@+id/txtWeather"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="1"
+                android:text="@string/weatherBtnTxt" />
+
+            <Button
+                android:id="@+id/btnBrainGame"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="2"
+                android:tag="braingame"
+                android:text="@string/btnBrainGame" />
+
+            <TextView
+                android:id="@+id/txtBrainGame"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="2"
+                android:text="@string/txtBtnBrainGame" />
+
+            <Button
+                android:id="@+id/btnCurrency"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="3"
+                android:tag="converter"
+                android:text="Converter" />
+
+            <TextView
+                android:id="@+id/txtCurrency"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="3"
+                android:text="@string/txtBtnConverter" />
+
+
+            <Button
+                android:id="@+id/btnSounds"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="4"
+                android:tag="sounds"
+                android:text="Sounds" />
+
+            <TextView
+                android:id="@+id/txtSounds"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="4"
+                android:text="@string/txtBtnSounds" />
+
+            <Button
+                android:id="@+id/btnTicTacToe"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="5"
+                android:tag="tictactoe"
+                android:text="@string/btnTicTacToe" />
+
+            <TextView
+                android:id="@+id/txtTicTacToe"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="5"
+                android:text="@string/txtBtnTic" />
+
+            <Button
+                android:id="@+id/btnDice"
+                style="@style/HomeButtonStyle"
+                android:layout_column="0"
+                android:layout_margin="20dp"
+                android:layout_row="6"
+                android:tag="dice"
+                android:text="Dice Game" />
+
+            <TextView
+                android:id="@+id/txtDice"
+                style="@style/HomeTextStyle"
+                android:layout_column="1"
+                android:layout_margin="20dp"
+                android:layout_row="6"
+                android:text="@string/txtBtnDice" />
+
+        </GridLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

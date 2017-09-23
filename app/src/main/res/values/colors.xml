@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#d4d4d4</color>
+    <color name="colorPrimaryDark">#232323</color>
+    <color name="colorAccent">#6a02e9</color>
+
+    <color name="background">#747474</color>
+    <color name="weatherColor">#11ff00</color>
+
+    <color name="colorBrainPrimary">#3F51B5</color>
+    <color name="colorBrainPrimaryDark">#ea024f</color>
+    <color name="colorBrainAccent">#06ee1d</color>
+
+    <color name="colorWeatherPrimary">#003b43</color>
+    <color name="colorWeatherPrimaryDark">#3b003e</color>
+    <color name="colorWeatherAccent">#FF4081</color>
+
+    <color name="colorTicPrimary">#f15b04</color>
+    <color name="colorTicPrimaryDark">#303F9F</color>
+    <color name="colorTicAccent">#ff4081</color>
+
+    <color name="colorDicePrimary">#3F51B5</color>
+    <color name="colorDicePrimaryDark">#303F9F</color>
+    <color name="colorDiceAccent">#FF4081</color>
+
+    <color name="colorSoundPrimary">#3F51B5</color>
+    <color name="colorSoundPrimaryDark">#303F9F</color>
+    <color name="colorSoundAccent">#FF4081</color>
+
+    <color name="colorCurPrimary">#6a14c1</color>
+    <color name="colorCurPrimaryDark">#000000</color>
+    <color name="colorCurAccent">#ff3378</color>
+</resources>
+
+
+
+

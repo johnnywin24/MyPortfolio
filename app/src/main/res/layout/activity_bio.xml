@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:id="@+id/bioLinear"
+            android:background="@drawable/layout_border">
+
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="@dimen/picture_width"
+                android:layout_height="@dimen/picture_height"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/picture_margin"
+                app:srcCompat="@drawable/profile_picture" />
+
+            <TextView
+                android:id="@+id/txtBio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/picture_margin"
+                android:fontFamily="sans-serif-condensed"
+                android:text="@string/bio"
+                android:textColor="#ffffff"
+                android:textSize="@dimen/text_size" />
+
+            <Button
+                android:id="@+id/btnHi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:text="Say Hi"
+                android:onClick="sendNotification"
+                android:layout_margin="5dp"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

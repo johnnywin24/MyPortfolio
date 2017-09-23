@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="johnny.nguyen.myportfolio">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".BioActivity"
+            android:label="Johnny Nguyen"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".WeatherActivity"
+            android:label="Weather"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppWeatherTheme" />
+        <activity
+            android:name=".BrainGame"
+            android:label="Brain Game"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/BrainGameTheme" />
+
+        <receiver android:name=".WidgetDataProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/weather_widget_info" />
+        </receiver>
+
+        <activity
+            android:name=".TicTacToeActivity"
+            android:label="Tic Tac Toe"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/TicTacToeTheme" />
+        <activity
+            android:name=".SoundActivity"
+            android:label="Media Box"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppSoundTheme" />
+        <activity
+            android:name=".CurrencyConverterActivity"
+            android:label="Currency Converter"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppCurrencyTheme" />
+        <activity
+            android:name=".DiceActivity"
+            android:label="Dice Game"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/DiceTheme" />
+
+        <service
+            android:name=".UpdateService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".WeatherDetails"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="johnny.nguyen.myportfolio.SoundActivity"
+    android:id="@+id/mainSound">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:id="@+id/linearLayout">
+
+
+        <Button
+            android:id="@+id/farm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:tag="farm"
+            android:text="Farm" />
+
+        <Button
+            android:id="@+id/index"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:tag="water"
+            android:text="Water" />
+
+        <Button
+            android:id="@+id/maxresdefault"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:tag="waterfall"
+            android:text="Waterfall" />
+
+        <Button
+            android:id="@+id/medowimg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="playSound"
+            android:tag="medow"
+            android:text="Medow" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/ivSound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+
+</RelativeLayout>
